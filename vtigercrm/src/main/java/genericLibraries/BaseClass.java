@@ -83,6 +83,9 @@ public class BaseClass {
 	@AfterMethod(alwaysRun = true)
 	public void checkTheTestResult(ITestResult result) {
 		
+		System.out.print(result);
+		
+		
 		
 		}
 	
