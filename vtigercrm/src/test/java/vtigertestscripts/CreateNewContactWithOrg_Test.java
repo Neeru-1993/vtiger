@@ -46,6 +46,8 @@ public class CreateNewContactWithOrg_Test extends BaseClass {
 		utility.switchingBackToMain(parentId);
 		
 		contact.getSaveButton().click();
+		
+		System.out.print(contact);
 		Thread.sleep(2000);
 		/*
 		utility.mouseHoverOnElement(home.getAdministrator());
