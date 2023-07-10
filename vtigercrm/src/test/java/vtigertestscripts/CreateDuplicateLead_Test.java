@@ -36,6 +36,7 @@ public class CreateDuplicateLead_Test extends BaseClass {
 		assertEquals(propertyUtility.readingdataFromPropertyFile("company"), lead.getCompany().getAttribute("value"));
 
 		lead.getAssignedTo().click();
+		System.out.println("done");
 		
 		Thread.sleep(3000);
 
