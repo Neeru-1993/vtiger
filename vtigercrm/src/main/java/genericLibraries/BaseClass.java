@@ -64,7 +64,8 @@ public class BaseClass {
 			login.getEmailTF().sendKeys(propertyUtility.readingdataFromPropertyFile("username"));
 			login.getPasswordTF().sendKeys(propertyUtility.readingdataFromPropertyFile("password"));
 			login.getLoginButton().click();
-
+System.out.println("done");
+System.out.println("ok");
 			
 		
 	}
