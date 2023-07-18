@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="vtiger_crm.CreateNewLead_Test"/>
+      <class name="vtiger_crm.CreateNewContact_Test"/>
+      <class name="vtiger_crm.OrganizationWithTypeAndIndustryMultiple_Test"/>
+      <class name="vtiger_crm.LoginToVtiger_Test"/>
+      <class name="vtiger_crm.OrganizationWithTypeAndIndustry_Test"/>
+      <class name="vtiger_crm.CreateDuplicateLead_Test"/>
+      <class name="vtiger_crm.CreateNewContactWithOrg_Test"/>
+      <class name="vtiger_crm.CreateEventTC_Test"/>
+      <class name="vtiger_crm.CreateDuplicateAndDeleteMultipleLeads_Test"/>
+      <class name="genericLibraries.ExtentImplementation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
